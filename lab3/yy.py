@@ -10,6 +10,7 @@ canv.pack(fill=BOTH,expand=1)
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue']
 
+
 class ball (object):
     def __init__(self,canv,x,y,r,vx,vy,color):
         self.canv=canv
